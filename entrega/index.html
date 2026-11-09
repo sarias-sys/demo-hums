@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HUMS · Selección inteligente</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --blue:#4A6BD6; --navy:#14234B; --soft:#EEF2FC; --green:#22A06B; --grey:#5E6A82; --wa:#25D366; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Montserrat, system-ui, sans-serif; color:var(--navy); background:#fff; line-height:1.5; }
+  .wrap { max-width:1100px; margin:0 auto; padding:0 16px; }
+  header { padding:20px 0; }
+  .logo { display:flex; align-items:center; gap:12px; color:var(--blue); }
+  .logo b { font-size:30px; letter-spacing:9px; font-weight:600; line-height:1; display:block; }
+  .logo small { font-size:10px; letter-spacing:1px; font-weight:600; }
+  .hero { background:var(--soft); padding:56px 0 64px; }
+  h1 { font-size:clamp(30px,5vw,52px); line-height:1.1; font-weight:800; }
+  h1 span { color:var(--blue); }
+  .lead { font-size:clamp(17px,2.2vw,21px); color:var(--grey); margin:18px 0 32px; max-width:720px; }
+  video { width:100%; border-radius:18px; box-shadow:0 24px 60px rgba(20,35,75,.18); background:#000; display:block; }
+  section { padding:64px 0; }
+  h2 { font-size:clamp(24px,3.4vw,36px); font-weight:800; margin-bottom:28px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:20px; }
+  .card { background:#fff; border-radius:16px; padding:24px; box-shadow:0 10px 30px rgba(20,35,75,.08); border:1px solid #E3E9F7; }
+  .num { width:42px; height:42px; border-radius:21px; background:var(--blue); color:#fff; font-weight:800; display:grid; place-items:center; margin-bottom:14px; }
+  .card h3 { font-size:19px; margin-bottom:8px; }
+  .card p { color:var(--grey); font-size:15px; }
+  .stats { background:var(--navy); color:#fff; }
+  .stats .grid { text-align:center; }
+  .stats strong { font-size:44px; display:block; color:#9FB4FF; }
+  .stats p { opacity:.8; }
+  .note { font-size:13px; opacity:.6; margin-top:18px; text-align:center; }
+  .cta { text-align:center; }
+  .btn { display:inline-block; margin-top:8px; background:var(--wa); color:#fff; text-decoration:none; font-weight:800; font-size:20px; padding:16px 34px; border-radius:40px; }
+  footer { padding:28px 0; text-align:center; color:var(--grey); font-size:14px; border-top:1px solid #E3E9F7; }
+</style>
+</head>
+<body>
+<header class="wrap">
+  <div class="logo">
+    <svg width="48" height="48" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="50" r="38" fill="none" stroke="#4A6BD6" stroke-width="7"/>
+      <circle cx="50" cy="12" r="8" fill="#4A6BD6" stroke="#fff" stroke-width="3"/><circle cx="50" cy="88" r="8" fill="#4A6BD6" stroke="#fff" stroke-width="3"/>
+      <circle cx="12" cy="50" r="8" fill="#4A6BD6" stroke="#fff" stroke-width="3"/><circle cx="88" cy="50" r="8" fill="#4A6BD6" stroke="#fff" stroke-width="3"/>
+      <rect x="31" y="31" width="8" height="38" rx="3" fill="#4A6BD6"/><rect x="61" y="31" width="8" height="38" rx="3" fill="#4A6BD6"/><rect x="31" y="46" width="38" height="8" rx="3" fill="#4A6BD6"/>
+    </svg>
+    <div><b>HUMS</b><small>HUMAN SOLUTIONS GROUP</small></div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Contrata en volumen,<br><span>sin ahogarte en hojas de vida.</span></h1>
+    <p class="lead">Atraemos, filtramos y preseleccionamos candidatos de forma automática para que tu equipo solo se dedique a los mejores.</p>
+    <video src="hums-demo.mp4" poster="portada.png" controls playsinline preload="metadata"></video>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Así funciona</h2>
+    <div class="grid">
+      <div class="card"><div class="num">1</div><h3>Atraemos</h3><p>Cada vacante tiene su enlace y recibe candidatos desde Facebook, Instagram, WhatsApp y anuncios, todos en un mismo lugar.</p></div>
+      <div class="card"><div class="num">2</div><h3>Filtramos</h3><p>Preguntas clave de disponibilidad, experiencia y ubicación. El sistema aprueba o descarta solo, en segundos, las 24 horas.</p></div>
+      <div class="card"><div class="num">3</div><h3>Evaluamos</h3><p>Los aptos reciben un WhatsApp automático para completar su proceso y presentar pruebas. Para cargos con otros idiomas, una entrevista por voz con IA mide su nivel.</p></div>
+      <div class="card"><div class="num">4</div><h3>Seleccionas</h3><p>Un tablero por etapas con varias vacantes y sedes a la vez. Compartes los finalistas con un enlace y el jefe de área decide.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap">
+    <h2 style="text-align:center">Pensado para alto volumen</h2>
+    <div class="grid">
+      <div><strong>1.240</strong><p>postulaciones en el mes</p></div>
+      <div><strong>410</strong><p>aptos filtrados automáticamente</p></div>
+      <div><strong>300</strong><p>contrataciones</p></div>
+    </div>
+    <p class="note">Cifras ilustrativas.</p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>¿Hablamos de tus contrataciones?</h2>
+    <a class="btn" href="https://wa.me/573112641234">Escríbele a Carlos · +57 311 264 1234</a>
+  </div>
+</section>
+
+<footer>HUMS – Human Solutions Group · Selección inteligente de personal</footer>
+</body>
+</html>
